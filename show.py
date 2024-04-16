@@ -6,5 +6,6 @@ def main():
         wakas = [s.strip() for s in f.readlines()]
         print(wakas[random.randrange(len(wakas))])
 
+
 if __name__ == '__main__':
     main()
